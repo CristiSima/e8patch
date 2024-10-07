@@ -1,0 +1,5 @@
+__pycache__
+*.o
+*.out
+test/temp
+src/elfesteem_local

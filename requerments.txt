@@ -1,0 +1,2 @@
+capstone
+elf-esteem @ git+https://github.com/CristiSima/elfesteem@master

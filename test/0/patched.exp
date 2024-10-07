@@ -1,0 +1,17 @@
+uid=0\(root\) gid=0\(root\) groups=0\(root\)
+OK
+\[stack\]  What do you mean that secret is CAFEBABE, it's clearely DEADBEEF
+\[rodata\] What do you mean that secret is CAFEBABE, it's clearely DEADBEEF
+Initialization Completed!
+f2 @0x[0-9a-f]*
+system @0x[0-9a-f]*
+
+f2\[0\]: 2B8E5894855
+system\[0\]: 74FF8548FA1E0FF3
+og 1B8E5894855
+f1 2D[0-9A-F]{4}8BE5894855
+id\(8\): 40320
+f1: (10|16)
+f2: 12
+secret: DEADBEEF, -559038737
+And done
